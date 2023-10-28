@@ -1,7 +1,8 @@
 import Image from './Image'
 import Link from './Link'
+import Github from '@uiw/react-shields/github'
 
-const Card = ({ title, description, imgSrc, href }) => (
+const Card = ({ title, description, imgSrc, href, githubUser, githubRepo }) => (
   <div className="md max-w-[544px] p-4 md:w-1/2">
     <div
       className={`${
@@ -39,15 +40,31 @@ const Card = ({ title, description, imgSrc, href }) => (
           )}
         </h2>
         <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
-        {href && (
-          <Link
-            href={href}
-            className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label={`Link to ${title}`}
-          >
-            Learn more &rarr;
-          </Link>
-        )}
+        <div className="flex justify-between">
+          {href && (
+            <Link
+              href={href}
+              className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              aria-label={`Link to ${title}`}
+            >
+              Learn more &rarr;
+            </Link>
+          )}
+          <div>
+            {githubRepo && githubUser ? (
+              <Github
+                user={githubUser}
+                repo={githubRepo}
+                href={`https://github.com/${githubUser}/${githubRepo}`}
+              >
+                <Github.Social type="stars" />
+                <Github.Social type="watchers" />
+              </Github>
+            ) : (
+              <></>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   </div>
