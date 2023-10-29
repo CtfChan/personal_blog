@@ -16,7 +16,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center justify-self-start text-center sm:text-left"
         >
-          <h1 className="mb-4 text-4xl font-extrabold text-white sm:text-5xl lg:text-8xl lg:leading-normal">
+          <h1 className="light:text-blacksm:text-5xl mb-4 text-4xl font-extrabold dark:text-white lg:text-8xl lg:leading-normal">
             <span className="to-secondary-600 bg-gradient-to-r from-primary-400 bg-clip-text text-transparent">
               Hello, I&apos;m{' '}
             </span>
@@ -28,7 +28,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="mb-6 text-base text-[#ADB7BE] sm:text-lg lg:text-xl">
+          <p className="light:text-black mb-6 text-base dark:text-[#b8bfc4] sm:text-lg lg:text-xl">
             Avid learner. Passionate C++ and robotics programmer.
           </p>
         </motion.div>
