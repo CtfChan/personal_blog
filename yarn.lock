@@ -9578,6 +9578,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-pll@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "react-pll@npm:0.0.1"
+  dependencies:
+    programming-languages-logos: ^0.0.3
+  peerDependencies:
+    prop-types: ^15.7.2
+    react: ^16.12.0
+  checksum: bb6fae569525eec4c3aea612217677f9d58ae9916ea672a0f2e8e76828e928b230aa6006235fe409f6b692706374ecd3e9edec73681ca2699e5c12a87baf014f
+  languageName: node
+  linkType: hard
+
 "react-type-animation@npm:^3.2.0":
   version: 3.2.0
   resolution: "react-type-animation@npm:3.2.0"
@@ -11156,9 +11168,9 @@ __metadata:
     postcss: ^8.4.24
     prettier: ^3.0.0
     prettier-plugin-tailwindcss: ^0.4.1
-    programming-languages-logos: ^0.0.3
     react: 18.2.0
     react-dom: 18.2.0
+    react-pll: ^0.0.1
     react-type-animation: ^3.2.0
     reading-time: 1.5.0
     rehype-autolink-headings: ^6.1.0
