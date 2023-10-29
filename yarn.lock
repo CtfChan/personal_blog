@@ -9472,6 +9472,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"programming-languages-logos@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "programming-languages-logos@npm:0.0.3"
+  checksum: b4aa8d4968a394ca867278729e54027a4928111b6949e786daa4aa7c81af6d0630f6a1efe927046116ebf45c1e59ff30c8bdadc92ce88a0b4fee015331c656cd
+  languageName: node
+  linkType: hard
+
 "promise-retry@npm:^2.0.1":
   version: 2.0.1
   resolution: "promise-retry@npm:2.0.1"
@@ -11149,6 +11156,7 @@ __metadata:
     postcss: ^8.4.24
     prettier: ^3.0.0
     prettier-plugin-tailwindcss: ^0.4.1
+    programming-languages-logos: ^0.0.3
     react: 18.2.0
     react-dom: 18.2.0
     react-type-animation: ^3.2.0
