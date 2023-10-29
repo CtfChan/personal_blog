@@ -1916,6 +1916,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@emotion/is-prop-valid@npm:^0.8.2":
+  version: 0.8.8
+  resolution: "@emotion/is-prop-valid@npm:0.8.8"
+  dependencies:
+    "@emotion/memoize": 0.7.4
+  checksum: bb7ec6d48c572c540e24e47cc94fc2f8dec2d6a342ae97bc9c8b6388d9b8d283862672172a1bb62d335c02662afe6291e10c71e9b8642664a8b43416cdceffac
+  languageName: node
+  linkType: hard
+
+"@emotion/memoize@npm:0.7.4":
+  version: 0.7.4
+  resolution: "@emotion/memoize@npm:0.7.4"
+  checksum: 4e3920d4ec95995657a37beb43d3f4b7d89fed6caa2b173a4c04d10482d089d5c3ea50bbc96618d918b020f26ed6e9c4026bbd45433566576c1f7b056c3271dc
+  languageName: node
+  linkType: hard
+
 "@esbuild-plugins/node-resolve@npm:^0.1.4":
   version: 0.1.4
   resolution: "@esbuild-plugins/node-resolve@npm:0.1.4"
@@ -5781,6 +5797,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"framer-motion@npm:^10.16.4":
+  version: 10.16.4
+  resolution: "framer-motion@npm:10.16.4"
+  dependencies:
+    "@emotion/is-prop-valid": ^0.8.2
+    tslib: ^2.4.0
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  dependenciesMeta:
+    "@emotion/is-prop-valid":
+      optional: true
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 57eb252f25a2c4ee14b024295c6a1162a53a05e0321bdb9c8a22ec266fbe777832823eaa0309e42854170fcde16c42915c6c5d0208b628fd000d6fab013c501f
+  languageName: node
+  linkType: hard
+
 "fs-minipass@npm:^2.0.0":
   version: 2.1.0
   resolution: "fs-minipass@npm:2.1.0"
@@ -9534,6 +9571,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-type-animation@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "react-type-animation@npm:3.2.0"
+  peerDependencies:
+    prop-types: ^15.5.4
+    react: ">= 15.0.0"
+    react-dom: ">= 15.0.0"
+  checksum: 4b7d92df71d8ed6cf53f182ce4ef9fb29636a86b14aa3852e5cbab11fd894e84bde12c6bb8e406258275ff2d0d875d0333dd67d91c9783d96bdefacb92c304cd
+  languageName: node
+  linkType: hard
+
 "react-virtual@npm:^2.8.2":
   version: 2.10.4
   resolution: "react-virtual@npm:2.10.4"
@@ -11088,6 +11136,7 @@ __metadata:
     eslint-config-next: 13.5.6
     eslint-config-prettier: ^8.8.0
     eslint-plugin-prettier: ^5.0.0
+    framer-motion: ^10.16.4
     github-slugger: ^1.4.0
     gray-matter: ^4.0.2
     husky: ^8.0.0
@@ -11102,6 +11151,7 @@ __metadata:
     prettier-plugin-tailwindcss: ^0.4.1
     react: 18.2.0
     react-dom: 18.2.0
+    react-type-animation: ^3.2.0
     reading-time: 1.5.0
     rehype-autolink-headings: ^6.1.0
     rehype-citation: ^1.0.2
