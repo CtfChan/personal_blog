@@ -66,7 +66,12 @@ module.exports = () => {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
     images: {
-      domains: ['picsum.photos', 'github.com', 'cdn.jsdelivr.net'],
+      domains: [
+        'picsum.photos',
+        'github.com',
+        'cdn.jsdelivr.net',
+        'google.com',
+      ],
     },
     async headers() {
       return [
