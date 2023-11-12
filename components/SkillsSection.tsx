@@ -1,9 +1,10 @@
 'use client'
 import React from 'react'
+import Image from './Image'
 
 function Skill({ source, alt, title }) {
   return (
-    <img
+    <Image
       src={source}
       alt={alt}
       title={title}
