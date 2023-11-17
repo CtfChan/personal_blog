@@ -17,7 +17,7 @@ export default function Projects() {
           </h1>
         </div>
 
-        <div className="mt-4 grid grid-cols-1 gap-6 text-white md:grid-cols-3">
+        <div className="mt-4 grid grid-cols-1 gap-6 text-white xl:grid-cols-3">
           {allProjects.map((project) => (
             <Card
               key={project.name}
