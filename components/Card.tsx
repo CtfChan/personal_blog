@@ -62,7 +62,7 @@ const Card = ({
              font-medium text-white transition-all hover:bg-gradient-to-br focus:outline-none 
              focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
           >
-            Link to Demo
+            Demo
           </a>
         )}
         {codeLink && (
@@ -71,16 +71,16 @@ const Card = ({
             target="_blank"
             className="group relative mb-2 mr-2 inline-flex cursor-pointer items-center 
             justify-center overflow-hidden whitespace-nowrap rounded-lg bg-gradient-to-br
-             from-green-500 to-green-500 p-0.5 text-sm font-medium text-black 
-             focus:outline-none focus:ring-4 focus:ring-cyan-200 group-hover:from-cyan-500
-              group-hover:to-blue-500 dark:text-white dark:focus:ring-cyan-800"
+            from-green-500 to-green-500 p-0.5 text-sm font-medium text-black 
+            focus:outline-none focus:ring-4 focus:ring-cyan-200 group-hover:from-cyan-500
+            group-hover:to-blue-500 dark:text-white dark:focus:ring-cyan-800"
             rel="noopener noreferrer"
           >
             <span
               className="relative flex items-center rounded-md  from-green-500
              via-green-600 to-green-700 px-5 py-2.5 text-center text-sm font-medium
-              text-white transition-all hover:bg-gradient-to-br focus:outline-none focus:ring-4
-               focus:ring-blue-300 dark:focus:ring-blue-800"
+             text-white transition-all hover:bg-gradient-to-br focus:outline-none focus:ring-4
+             focus:ring-blue-300 dark:focus:ring-blue-800"
             >
               <Image
                 alt="github logo"
@@ -89,7 +89,7 @@ const Card = ({
                 width={24}
                 height={24}
               />
-              View Code
+              GitHub
             </span>
           </a>
         )}
