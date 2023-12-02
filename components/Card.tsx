@@ -89,7 +89,7 @@ const Card = ({
                 width={24}
                 height={24}
               />
-              GitHub
+              Code
             </span>
           </a>
         )}

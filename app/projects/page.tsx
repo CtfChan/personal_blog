@@ -26,7 +26,7 @@ export default function Projects() {
               src={project.src}
               description={project.description}
               demoLink={project.demoLink}
-              codeLink={project.demoLink}
+              codeLink={project.codeLink}
             />
           ))}
         </div>
